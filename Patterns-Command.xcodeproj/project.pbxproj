@@ -13,6 +13,7 @@
 		A209B3C727A3B77E003E9644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A209B3C527A3B77E003E9644 /* Main.storyboard */; };
 		A209B3C927A3B77E003E9644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A209B3C827A3B77E003E9644 /* Assets.xcassets */; };
 		A209B3CC27A3B77E003E9644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A209B3CA27A3B77E003E9644 /* LaunchScreen.storyboard */; };
+		A209B3D427A3D2E4003E9644 /* UndoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209B3D327A3D2E4003E9644 /* UndoCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A209B3C827A3B77E003E9644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A209B3CB27A3B77E003E9644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A209B3CD27A3B77E003E9644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A209B3D327A3D2E4003E9644 /* UndoCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A209B3BF27A3B77E003E9644 /* AppDelegate.swift */,
 				A209B3C127A3B77E003E9644 /* SceneDelegate.swift */,
+				A209B3D327A3D2E4003E9644 /* UndoCommand.swift */,
 				A209B3C327A3B77E003E9644 /* ViewController.swift */,
 				A209B3C527A3B77E003E9644 /* Main.storyboard */,
 				A209B3C827A3B77E003E9644 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A209B3C427A3B77E003E9644 /* ViewController.swift in Sources */,
+				A209B3D427A3D2E4003E9644 /* UndoCommand.swift in Sources */,
 				A209B3C027A3B77E003E9644 /* AppDelegate.swift in Sources */,
 				A209B3C227A3B77E003E9644 /* SceneDelegate.swift in Sources */,
 			);
