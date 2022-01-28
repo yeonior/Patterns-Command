@@ -23,14 +23,13 @@ class UndoCommand: BaseCommand {
     }
     
     func undo() -> String {
+        guard currentString != "" else { return "" }
         currentString.removeLast()
-        print(currentString)
         
         return currentString
     }
     
     func add(_ string: String) {
         currentString.append(string)
-        print(currentString)
     }
 }
